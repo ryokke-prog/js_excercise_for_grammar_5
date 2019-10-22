@@ -6,11 +6,7 @@
 
 // ここにisOddNumber関数を作る
 function isOddNumber(number) {
-    if(number % 2 === 1) {
-        return true;
-    } else {
-        return false;
-    }
+    return number % 2 === 1;
 }
 
 // ここにconsole.logを使って「9」「14」を引数に渡したときの結果値を出力する
