@@ -27,11 +27,11 @@ console.log("14を入力したらfalseが返るべき：", isOddNumber(14));
 // ここにfactorial関数を作る
 const factorial = function(number) {
     let answer = 1;
-    for(i = 1; i <= number; i++) {
+    for(let i = 1; i <= number; i++) {
         answer *= i;
     }
     return answer;
-}
+};
 
 // ここにconsole.logを使って「4」「5」を引数に渡したときの結果値を出力する
 console.log("4を入力したら24が返るべき：", factorial(4));
@@ -49,7 +49,7 @@ console.log("5を入力したら120が返るべき：", factorial(5));
 // ここにconvertFirstCharacterToUpperCase関数を作る
 const convertFirstCharacterToUpperCase = (word)=> {
     return word.charAt(0).toUpperCase() + word.slice(1);
-}
+};
 
 // ここにconsole.logを使って「'hello'」「'world'」を引数に渡したときの結果値を出力する
 console.log('「"hello"」を入力したら「"Hello"」が返るべき', convertFirstCharacterToUpperCase("hello"));
